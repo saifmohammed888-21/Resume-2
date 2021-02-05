@@ -1,0 +1,78 @@
+body{ background: url("https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTExMjEwfHxlbnwwfHx8&w=1000&q=80") no-repeat fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.container-xl {background-color: white;height: 950px;width: 90%;margin-bottom:50px;margin-top: 50px !important;margin: auto;padding: 0px; transition: all 250ms ease-in-out;}
+.sidebar {width: 28%;background-color:rgb(1, 0, 16);height: 100%;text-align: left;padding: 10px; padding-left: 30px;float: left;}
+.sidebar .image {width: 70%;display: block;margin: auto;margin-bottom: 20px;margin-top: 20px;}
+.sidebar h5 {color: white;font-size: large;}
+.sidebar,.reference p,a {color: white;font-size: small;font-weight: lighter;text-align: left;margin-bottom: 2px;}
+.sidebar h6,a{font-size: small;text-align: left;}
+.sidebar h6,ul li{font-size: small;text-align: left;}
+.sidebar a:hover{color: yellow;}
+.mainContainer{width: 72%;height: 900px;float: left; color: rgb(1, 0, 16) !important;}
+.header {margin: 60px 15px !important;}
+.header div:nth-child(1) {width: auto;float: left;}
+.header div:nth-child(2) {float: right;font-size: small;font-weight: lighter;}
+.work-experience {margin-top: 50px;border-top: 1px solid grey;}
+
+.head div:nth-child(1) {float: left;}
+.head div:nth-child(2) {float: right;}
+.head{margin-bottom: 50px !important}
+
+
+.work-experience section:nth-child(2) {width: 30%;float: left;padding-left: 1px !important;}
+.work-experience section:nth-child(3) {width: 70%;float: right;padding-left: 40px !important;}
+.work-experience section li{font-size: 13px;font-weight: lighter;color: grey;text-align: left; text-indent: 1px;}
+.skill h6 i {float: right;right:50%;position: relative;}
+
+
+@media (min-width: 320px) {.container-xl{width: 90%;margin-bottom: 50px;} .container-xl .sidebar {width: 40%;padding: 5px;} .mainContainer{ width: 60%;} .sidebar p,a {font-size: 10px;} .sidebar h6{font-size: 12px;} 
+
+.head div:nth-child(1){clear: both;}
+.head div p {font-size: 9px;width: 100%;float: left;}
+.head{margin-bottom: 70px !important}
+.work-experience h5{font-size: 15px;}
+.work-experience section span{font-size: 10px;}
+
+.work-experience section:nth-child(2) {width: 100%;font-size: 10px;}
+.work-experience section:nth-child(3) {width: 100%;font-size: 10px;float: left;padding: 0px !important;margin-top: 10px;}
+.work-experience section li{font-size: 10px;}
+.work-experience section h6{font-size: 12px;}
+
+.skill h6 i {right:10%;;}
+
+.hobbies li{font-weight: lighter;font-size: small;}
+.container-xl {height: 1050px;}
+
+
+}
+
+@media (min-width: 576px) {.container-xl{width: 80%;margin-bottom: 50px;} .container-xl .sidebar {width: 42%; padding-left: 2%;} .mainContainer{width: 58%;}.sidebar p {font-size: 10px;}
+
+.head div p {font-size: 9px;}
+.head div p {font-size: 9px;width: 100%;clear: both;}
+.container-xl {height: 1000px;}
+}
+
+@media (min-width: 768px) {.container-xl{width: 70%;margin-bottom: 50px;}  .container-xl .sidebar {width: 35%;} .mainContainer{width: 65%;}
+
+.head div p {font-size: 10px;}
+.work-experience section li{font-size: 12px;}
+.work-experience section h6{font-size: 14px;}
+.skill h6 i {right:30%;;}
+
+}
+
+@media (min-width: 992px) {.container-xl{width: 60%;margin-bottom: 50px;} .container-xl .sidebar {width: 35%;} .mainContainer{width: 65%;}
+
+.head div p {font-size: 12px;}
+.work-experience section li{font-size: 12px;}
+.work-experience section h6{font-size: 14px;}
+.skill h6 i {right:50%;;}
+
+} 
+
+@media (min-width: 1200px) {.container-xl{width: 50%;margin-bottom: 50px;margin-left: 27%;} .container-xl .sidebar {width: 33%;} .sidebar a{text-align: left;} .mainContainer{width: 67%;}
+
+.head div p {font-size: 14px;}
+}
+
+
